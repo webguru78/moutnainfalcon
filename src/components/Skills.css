@@ -1,0 +1,59 @@
+.skill-area {
+  background: #fff;
+}
+
+.skill-content .site-title {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.skill-text {
+  color: #666;
+  margin-bottom: 30px;
+}
+
+.skill-progress .progress-item {
+  margin-bottom: 20px;
+}
+
+.progress-item h5 {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #000;
+}
+
+.progress {
+  height: 10px;
+  border-radius: 10px;
+  background-color: #eee;
+  overflow: hidden;
+  position: relative;
+}
+
+.progress-bar {
+  width: 0%;
+  height: 100%;
+  background-color: #f65801;
+  border-radius: 10px;
+  transition: width 0.4s ease;
+}
+
+.theme-btn {
+  background: #f65801;
+  color: #fff;
+  padding: 10px 25px;
+  border-radius: 30px;
+  transition: 0.3s ease;
+  display: inline-block;
+  text-decoration: none;
+  display: none !important;
+  margin-top: 1.5rem !important;
+}
+
+.theme-btn:hover {
+  background: #000;
+  color: #fff;
+}

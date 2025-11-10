@@ -1,0 +1,48 @@
+.partner-area {
+  background: #fff;
+  text-align: center;
+}
+
+.partner-title {
+  font-size: 3rem !important ;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.partner-title span {
+  color: #f65801;
+}
+
+.partner-subtitle {
+  font-size: 20px !important;
+  color: black;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.partner-logo {
+  padding: 20px;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+  background: #f9f9f9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.partner-logo img {
+  max-width: 100%;
+  height: auto;
+  transition: all 0.3s ease;
+  filter: grayscale(100%);
+}
+
+.partner-logo:hover {
+  background: #fff3eb;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.partner-logo:hover img {
+  transform: scale(1.1);
+  filter: grayscale(0%);
+}

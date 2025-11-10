@@ -1,0 +1,144 @@
+/* --- Section Styling --- */
+.division-section {
+  background: linear-gradient(180deg, #f9fafc 0%, #ffffff 100%);
+  position: relative;
+  overflow: hidden;
+}
+
+.tagline {
+  color: #f65801;
+  font-weight: 600;
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.main-title {
+  font-size: 36px;
+  font-weight: 800;
+  color: #0b1b3a;
+  margin-top: 10px;
+}
+
+.main-title span {
+  color: #f65801;
+}
+
+.subtitle {
+  color: #555;
+  max-width: 650px;
+  margin: 10px auto 0;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+/* --- Card Styling --- */
+.division-card {
+  background: #fff;
+  border-radius: 18px;
+  box-shadow: 0 5px 30px rgba(0, 0, 0, 0.07);
+  overflow: hidden;
+  transition: all 0.4s ease;
+  position: relative;
+  height: 100%;
+}
+
+.division-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.12);
+}
+
+/* --- Image --- */
+.division-img {
+  height: 200px;
+  overflow: hidden;
+}
+
+.division-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: all 0.5s ease;
+}
+
+.division-card:hover .division-img img {
+  transform: scale(1.05);
+}
+
+/* --- Card Body --- */
+.division-body {
+  padding: 25px 20px 30px;
+}
+
+.division-body h4 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #0b1b3a;
+  margin-bottom: 15px;
+  position: relative;
+}
+
+.division-body ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 15px;
+}
+
+.division-body ul li {
+  color: #555;
+  font-size: 15px;
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  transition: color 0.3s ease;
+}
+
+.division-body ul li i {
+  color: #f65801;
+  font-size: 14px;
+}
+
+.division-card:hover .division-body ul li {
+  color: #111;
+}
+
+/* --- Read More Button --- */
+.read-more {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: #0b1b3a;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.read-more i {
+  font-size: 13px;
+  transition: transform 0.3s ease;
+}
+
+.read-more:hover {
+  color: #f65801;
+}
+
+.read-more:hover i {
+  transform: translateX(4px);
+}
+
+/* --- Responsive --- */
+@media (max-width: 992px) {
+  .main-title {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .main-title {
+    font-size: 26px;
+  }
+  .division-img {
+    height: 180px;
+  }
+}
