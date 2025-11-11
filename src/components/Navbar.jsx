@@ -151,7 +151,7 @@ const Navbar = () => {
 
                     {/* Company Profile */}
                     <li className="nav-item">
-                      <a className="nav-link" href="/company-profile">Company Profile</a>
+                      <Link className="nav-link" to="/company">Company Profile</Link>
                     </li>
 
                     {/* Our Work */}
