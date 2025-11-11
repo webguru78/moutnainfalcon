@@ -54,7 +54,7 @@
 }
 
 .hero-title {
-  font-size: 8rem !important;
+  font-size: clamp(2rem, 5vw + 1rem, 8rem) !important;
   font-weight: 700 !important;
   color: transparent;
   text-transform: uppercase;
@@ -85,7 +85,7 @@
 .theme-btn,
 .theme-btn2 {
   padding: 14px 36px;
-  font-size: 1rem !important;
+  font-size: clamp(0.9rem, 2vw, 1rem) !important;
   font-weight: 600;
   border-radius: 50px;
   text-decoration: none;
@@ -97,13 +97,10 @@
    margin: auto !important;
    background-color: #F65801 !important;
    color: white !important;
+
 }
 
-.theme-btn {
-  background-color: #F65801 !important;
-  color: white;
-  border: 2px solid #F65801 !important;
-}
+
 
 
 
@@ -147,7 +144,7 @@
 
   .theme-btn,
   .theme-btn2 {
-    width: 100%;
+    width: 40%;
     justify-content: center;
   }
 }

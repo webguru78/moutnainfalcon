@@ -16,7 +16,7 @@ root.render(
 
 // Initialize Lenis
 const lenis = new Lenis({
-  duration: 1.2,
+  duration: 1,
   easing: (t) => t,
   smooth: true,
   direction: "vertical",

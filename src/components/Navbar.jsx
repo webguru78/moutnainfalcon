@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Navbar = () => {
   return (
@@ -106,14 +107,14 @@ const Navbar = () => {
                       </a>
                       <ul className="dropdown-menu fade-down">
                         <li>
-                          <a className="dropdown-item" href="/about/overview">
+                          <Link className="dropdown-item" to="/overview">
                             <i className="far fa-info-circle" /> Overview
-                          </a>
+                          </Link>
                         </li>
                         <li>
-                          <a className="dropdown-item" href="/about/why-choose-us">
+                          <Link className="dropdown-item" to="/why-choose">
                             <i className="far fa-star" /> Why Choose Us
-                          </a>
+                          </Link>
                         </li>
                         <li>
                           <a className="dropdown-item" href="/about/quality-policy">
