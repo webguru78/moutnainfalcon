@@ -4,7 +4,7 @@ import Navbar from './components/Navbar';
 import Home from './pages/Home';
 import Overview from './pages/Overview';
 import WhyChoose from './pages/WhyChoose';
-import CompanyPofile from './pages/CompanyPofile';
+
 
 const App = () => {
   return (
@@ -12,7 +12,7 @@ const App = () => {
       <Route path="/" element={<Home />} />
       <Route path="/overview" element={<Overview />} />
       <Route path="/why-choose" element={<WhyChoose />} />
-      <Route path="/company" element={<CompanyPofile />} />
+      
     </Routes>
     
   );
