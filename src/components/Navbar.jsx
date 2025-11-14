@@ -124,14 +124,14 @@ const Navbar = () => {
                           </Link>
                         </li>
                         <li>
-                          <a className="dropdown-item" href="/about/hse-policy">
+                          <Link className="dropdown-item" to="/hse-policy">
                             <i className="far fa-shield-check" /> HSE Policy
-                          </a>
+                          </Link>
                         </li>
                         <li>
-                          <a className="dropdown-item" href="/about/ceo-message">
+                          <Link className="dropdown-item" to="/ceo">
                             <i className="far fa-user-tie" /> CEO Message
-                          </a>
+                          </Link>
                         </li>
                         <li>
                           <a className="dropdown-item" href="/about/organization-chart">
@@ -143,6 +143,39 @@ const Navbar = () => {
                             <i className="far fa-file-contract" /> Legal Documents
                           </a>
                         </li>
+                      </ul>
+                    </li>
+                    <li className="nav-item dropdown">
+                      <a
+                        className="nav-link dropdown-toggle"
+                        href="#"
+                        data-bs-toggle="dropdown"
+                      >
+                        Our Division
+                      </a>
+                      <ul className="dropdown-menu fade-down">
+                        <li>
+                          <Link className="dropdown-item" to="/overview">
+                            <i className="far fa-info-circle" /> Contracting Division
+                          </Link>
+                        </li>
+                        <li>
+                          <Link className="dropdown-item" to="/why-choose">
+                            <i className="far fa-star" />Scaffolding
+                          </Link>
+                        </li>
+                        <li>
+                          <Link className="dropdown-item" to="/quality">
+                            <i className="far fa-certificate" /> Heavy Equipment Rental
+                          </Link>
+                        </li>
+                        <li>
+                          <a className="dropdown-item" href="/about/hse-policy">
+                            <i className="far fa-shield-check" /> General Trading & Recruitment
+                          </a>
+                        </li>
+                       
+                      
                       </ul>
                     </li>
 

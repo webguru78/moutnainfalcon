@@ -6,6 +6,8 @@ import Overview from './pages/Overview';
 import WhyChoose from './pages/WhyChoose';
 import Quality from './pages/Quality';
 import Services from './pages/Services';
+import Hec from './pages/Hec';
+import Ceo from './pages/Ceo';
 
 
 const App = () => {
@@ -16,6 +18,8 @@ const App = () => {
       <Route path="/why-choose" element={<WhyChoose />} />
       <Route path="/quality" element={<Quality />} />
       <Route path="/services" element={<Services />} />
+      <Route path="/hse-policy" element={<Hec />} />
+      <Route path="/ceo" element={<Ceo />} />
       
     </Routes>
     

@@ -975,7 +975,7 @@ label {
 }
 
 .header-top-lang .dropdown-menu{
-  min-width: 60px;
+  min-width: 460px !important;
   border-radius: 15px;
   padding: 10px;
   border: none;
@@ -1127,7 +1127,7 @@ label {
     border-radius: 15px;
     border: none;
     background: var(--color-white);
-    width: 220px;
+    width: 320px !important;
     box-shadow: var(--box-shadow);
     opacity: 0;
     visibility: hidden;
@@ -5117,8 +5117,10 @@ label {
 }
 
 .footer-logo img {
-  width: 200px;
-  margin-bottom: 15px;
+  width: 150px !important;
+  border-radius: 100px !important;
+  margin-top: -1rem !important;
+ 
 }
 
 .footer-widget-title {

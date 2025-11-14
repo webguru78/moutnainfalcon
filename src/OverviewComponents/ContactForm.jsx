@@ -474,13 +474,13 @@ const styles = {
     color: "#0a0a0a",
   },
   accentText: {
-    color: "#f65801",
+    color: "#0A2155",
     display: "block",
   },
   accentLine: {
     width: "100px",
     height: "5px",
-    background: "linear-gradient(90deg, #f65801, #ff8833)",
+    background: "#0A2155",
     borderRadius: "3px",
   },
   description: {
@@ -621,7 +621,7 @@ const styles = {
     border: "2px solid #e5e7eb",
     borderRadius: "14px",
     fontSize: "1rem",
-    fontFamily: "inherit",
+   
     outline: "none",
     backgroundColor: "#fafafa",
     color: "#0a0a0a",
@@ -629,12 +629,12 @@ const styles = {
   textarea: {
     resize: "vertical",
     minHeight: "140px",
-    fontFamily: "inherit",
+   
   },
   submitButton: {
     width: "100%",
     padding: "18px",
-    background: "#0a0a0a",
+    background: "#73BAAA",
     color: "white",
     border: "none",
     borderRadius: "14px",

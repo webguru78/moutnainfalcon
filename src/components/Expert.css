@@ -15,17 +15,18 @@
 }
 
 .feature-item {
-  background: var(--color-white);
+  background: #73BAAA;
   border-radius: 30px;
   padding: 30px;
   box-shadow: var(--box-shadow);
   position: relative;
   transition: var(--transition);
+color: white !important;
 }
 
 .feature-item:hover {
   transform: translateY(-10px);
-  border: 1px solid #F65801 !important;
+  border: 1px solid #0A2155 !important;
 }
 
 .feature-item .count {
@@ -67,14 +68,14 @@
 }
 
 .feature-content h4 {
-  color: var(--color-dark);
+  color: white !important;
   font-family: var(--heading-font);
   margin-bottom: 10px;
 }
 
 .feature-content p {
-  color: black !important;
-  font-size: 20px !important;
+  color: white !important;
+  font-size: 18px !important;
   line-height: 1.5 !important;
 }
 

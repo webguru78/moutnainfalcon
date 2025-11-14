@@ -12,28 +12,13 @@ const Footer = () => {
           <div className="col-lg-5">
             <div className="footer-widget-box about-us">
               <a href="#" className="footer-logo">
-                <img src="assets/img/logo/logo-light.png" alt />
+                <img src="assets/img/logo.jpg" className='img-fluid '  alt />
               </a>
-              <p className="mb-4 text-white">
+              <p className="mb-4 text-white mt-3">
                 We are many variations of passages available but the majority have suffered
                 alteration some form by injected humour looking layout words believable.
               </p>
-              <div className="footer-newsletter">
-                <h6>Subscribe Our Newsletter</h6>
-                <div className="newsletter-form">
-                  <form action="#">
-                    <div className="form-group">
-                      <div className="form-icon">
-                        <i className="far fa-envelopes" />
-                        <input type="email" className="form-control" placeholder="Your Email" />
-                        <button className="theme-btn" type="submit">
-                          Subscribe <span className="far fa-paper-plane" />
-                        </button>
-                      </div>
-                    </div>
-                  </form>
-                </div>
-              </div>
+              
             </div>
           </div>
           <div className="col-6 col-lg-2">

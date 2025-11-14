@@ -1,5 +1,5 @@
 import React from 'react'
-
+import './Working.css'
 const Working = () => {
   return (
     <div>  <div className="process-area py-100">

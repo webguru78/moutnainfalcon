@@ -130,12 +130,12 @@
           display: inline-flex;
           align-items: center;
           gap: 12px;
-          background: #0039A0;
+          background: #73BAAA;
           color: white;
-          padding: 18px 40px;
-          border-radius: 8px;
+          padding: 15px 20px;
+          border-radius: 30px;
           text-decoration: none;
-          font-size: 1.1rem;
+          font-size: 1rem;
           font-weight: 600;
           transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
           box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
@@ -162,7 +162,7 @@
         .vision-cta-btn:hover {
           transform: translateY(-3px);
           box-shadow: 0 8px 30px rgba(0, 0, 0, 0.25);
-          background: black;
+          background: #0A2155 !important;
           color: white;
         }
 

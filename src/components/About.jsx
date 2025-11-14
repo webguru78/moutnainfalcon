@@ -13,7 +13,7 @@ const About = () => {
           </div>
           <div className="about-experience">
             <h5>30<span>+</span></h5>
-            <p>Years Of Experience</p>
+            <p style={{color:"white"}}>Years Of Experience</p>
           </div>
         </div>
       </div>

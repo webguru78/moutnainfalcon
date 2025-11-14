@@ -1,0 +1,136 @@
+/* Main Wrapper */
+.ceo-wrapper {
+  background: #ffffff;
+  padding: 80px 20px;
+  font-family: "Segoe UI", sans-serif;
+}
+
+/* LEFT CARD */
+.ceo-card {
+  background: #73baaa;
+  padding: 50px 35px;
+  border-radius: 24px;
+  text-align: center;
+  color: #ffffff;
+  box-shadow: 0 20px 40px rgba(115, 186, 170, 0.35);
+  border: 2px solid rgba(255, 255, 255, 0.15);
+
+}
+
+/* Avatar */
+.ceo-avatar {
+  width: 180px;
+  height: 180px;
+  background: #15315d;
+  color: #ffffff;
+  font-size: 64px;
+  font-weight: 700;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 25px;
+  border: 4px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.25);
+}
+
+/* Titles */
+.ceo-name {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+.ceo-role {
+  font-size: 14px;
+  background: #ffffff;
+  color: #0a2155;
+  padding: 6px 18px;
+  border-radius: 20px;
+  display: inline-block;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.ceo-company {
+  font-size: 15px;
+  font-weight: 600;
+  opacity: 0.9;
+}
+
+/* Quote Box */
+.ceo-quote-box {
+  margin-top: 25px;
+  background: rgba(255, 255, 255, 0.1);
+  border-left: 4px solid #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+}
+.quote-icon {
+  width: 28px;
+  opacity: 0.7;
+  margin-bottom: 10px;
+}
+.ceo-quote {
+  font-style: italic;
+  line-height: 1.7;
+  font-size: 1.5rem !important;
+  color: black !important;
+}
+
+/* RIGHT CONTENT */
+.ceo-text-section {
+  padding-left: 15px;
+}
+.ceo-title {
+  font-size: 42px;
+  font-weight: 800;
+  color: #000000;
+  margin-bottom: 20px;
+}
+.ceo-title span {
+  color: #73baaa;
+}
+.ceo-line {
+  width: 80px;
+  height: 4px;
+  border-radius: 2px;
+  background: #73baaa;
+  margin-bottom: 35px;
+}
+
+/* Paragraph */
+.ceo-text {
+  font-size: 17px;
+  line-height: 1.9;
+  color: #444;
+  margin-bottom: 25px;
+}
+
+/* Button */
+.ceo-btn {
+  background: #73baaa;
+  color: white;
+  padding: 14px 38px;
+  border: none;
+  border-radius: 50px;
+  font-weight: 700;
+  cursor: pointer;
+  font-size: 16px;
+  box-shadow: 0 10px 25px rgba(115, 186, 170, 0.45);
+  transition: 0.3s ease;
+}
+.ceo-btn:hover {
+  transform: translateY(-3px);
+  background: #5a9989;
+  box-shadow: 0 15px 35px rgba(115, 186, 170, 0.6);
+}
+
+/* Responsive */
+@media (max-width: 991px) {
+  .ceo-text-section {
+    padding-left: 0;
+    text-align: center;
+  }
+  .ceo-title {
+    font-size: 34px;
+  }
+}
